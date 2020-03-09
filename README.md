@@ -1,6 +1,6 @@
 # Listas-DMOB-2020-1
 
-##### Listas da disciplina LPOO
+##### Listas da disciplina DMOB
 
 ###### Nome: Cleilson Araújo Fernandes
 ###### CPD: 43282

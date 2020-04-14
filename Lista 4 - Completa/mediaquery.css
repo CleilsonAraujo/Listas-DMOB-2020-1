@@ -1,0 +1,97 @@
+img {
+	width: 40%;
+	float: left;
+}
+
+@media only screen and (max-width: 600px){
+	img {
+		float: none;
+		width: 100%;
+	}
+}
+
+#container {
+	margin: 1em auto;
+	width: 100%;
+	clear: both;
+}
+
+#header {
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 40px;
+	background: rgb(12, 100, 167);
+	line-height: 40px;
+}
+
+#nav {
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 30px;
+	background: rgb(20, 74, 120);
+	display: block;
+	line-height: 30px;
+}
+
+#navmobile {
+	float: left;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 30px;
+	background: rgb(20, 74, 120);
+	display: none;
+	line-height: 30px;
+}
+
+#main {
+	float: left;
+	text-align: center;
+	color: white;
+	width: 80%;
+	height: 100px;
+	background: rgb(22, 163, 197);
+	line-height: 100px;
+}
+
+#aside {
+	float: left;
+	text-align: center;
+	color: white;
+	width: 20%;
+	height: 100px;
+	background: rgb(82, 116, 173);
+	line-height: 100px;
+}
+
+#footer {
+	clear: both;
+	text-align: center;
+	color: white;
+	width: 100%;
+	height: 30px;
+	background: rgb(122, 205, 226);
+	line-height: 30px;
+}
+
+@media only screen and (max-width: 600px){
+	#nav {
+		display: none;
+	}
+
+	#navmobile {
+		display: block;
+	}
+
+	#main {
+		width: 100%;
+	}
+
+	#aside {
+		width: 100%;
+		height: 40px;
+		line-height: 40px;
+	}
+}
